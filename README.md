@@ -1,4 +1,4 @@
 # MyCalculator
  Calculator with React
  
- ![](https://github.com/ferhatekemen/MyCalculator/edit/master/MyCalculator.png)
+ ![](https://raw.githubusercontent.com/ferhatekemen/MyCalculator/master/MyCalculator.png)
