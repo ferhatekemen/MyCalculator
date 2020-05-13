@@ -1,0 +1,74 @@
+
+body {
+  margin: 25vh auto;
+}
+
+.calculatorDesign {
+  display: block;
+  width: 60vw;
+  margin: auto;
+  padding: 0px;
+}
+
+.displayDesign {
+  margin: 0;
+  padding-right: 5px;
+  min-height: 70px;
+  width: 60vw;
+  background-color: black;
+  color: white;
+  text-align: right;
+  font-family: "Arial";
+  font-weight: bold;
+  word-break: break-all;
+}
+
+.firstLine {
+  color: orange;
+}
+
+.aa {
+  margin: 0;
+}
+
+.buttonDesign {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: 1px solid white;
+  width: 15vw;
+  height: 10vh;
+  background: linear-gradient(15deg, #881, #bb4);
+  font-weight: bold;
+  font-size: 3vh;
+  border-radius: 0 0 2vh 0;
+}
+
+.buttonDesign:hover {
+  filter: saturate(200%);
+}
+
+#clear {
+  width: 30vw;
+  background: #f44;
+}
+
+#zero {
+  width: 30vw;
+}
+
+#equals {
+  width: 30vw;
+  background: #5f9;
+}
+
+#divide,
+#multiply,
+#subtract,
+#add {
+  background: #dfd;
+}
+
+#decimal {
+  background: #dcc;
+}
