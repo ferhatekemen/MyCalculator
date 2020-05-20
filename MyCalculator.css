@@ -1,33 +1,40 @@
-
 body {
-  margin: 25vh auto;
+  height: 80vh;
+  margin: 10vh auto;
 }
 
-.calculatorDesign {
+#calculatorDesign {
   display: block;
   width: 60vw;
   margin: auto;
-  padding: 0px;
+  padding: 0;
 }
 
-.displayDesign {
-  margin: 0;
+#mainLine {
   padding-right: 5px;
-  min-height: 70px;
+  font-size: 1.5em;
   width: 60vw;
   background-color: black;
   color: white;
   text-align: right;
   font-family: "Arial";
   font-weight: bold;
-  word-break: break-all;
 }
 
 .firstLine {
   color: orange;
+  word-break: break-all;
+  margin: 0;
+  padding: 0;
+  min-height: 3em;
 }
 
-.aa {
+#display {
+  margin: 0;
+  padding: 0;
+}
+
+.layer {
   margin: 0;
 }
 
@@ -38,13 +45,14 @@ body {
   border: 1px solid white;
   width: 15vw;
   height: 10vh;
-  background: linear-gradient(15deg, #881, #bb4);
+  background: linear-gradient(15deg, wheat, #dd6, wheat);
   font-weight: bold;
   font-size: 3vh;
   border-radius: 0 0 2vh 0;
 }
 
 .buttonDesign:hover {
+  color: white;
   filter: saturate(200%);
 }
 
@@ -71,4 +79,43 @@ body {
 
 #decimal {
   background: #dcc;
+}
+
+@media screen and (max-width: 500px) {
+  #calculatorDesign {
+    width: 300px;
+  }
+
+  #mainLine {
+    width: 300px;
+  }
+
+  .buttonDesign {
+    width: 75px;
+  }
+
+  #clear,
+  #zero,
+  #equals {
+    width: 150px;
+  }
+}
+@media screen and (min-width: 700px) {
+  #calculatorDesign {
+    width: 420px;
+  }
+
+  #mainLine {
+    width: 420px;
+  }
+
+  .buttonDesign {
+    width: 105px;
+  }
+
+  #clear,
+  #zero,
+  #equals {
+    width: 210px;
+  }
 }
