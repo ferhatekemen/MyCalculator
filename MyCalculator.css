@@ -12,7 +12,7 @@ body {
 
 #mainLine {
   padding-right: 5px;
-  font-size: 1.5em;
+  font-size: 3.5vh;
   width: 60vw;
   background-color: black;
   color: white;
@@ -26,7 +26,7 @@ body {
   word-break: break-all;
   margin: 0;
   padding: 0;
-  min-height: 3em;
+  min-height: 7vh;
 }
 
 #display {
@@ -82,7 +82,8 @@ body {
 }
 
 @media screen and (max-width: 500px) {
-  #calculatorDesign, #mainLine {
+  #calculatorDesign,
+  #mainLine {
     width: 300px;
   }
 
@@ -97,7 +98,8 @@ body {
   }
 }
 @media screen and (min-width: 700px) {
-  #calculatorDesign, #mainLine {
+  #calculatorDesign,
+  #mainLine {
     width: 420px;
   }
 
@@ -112,8 +114,17 @@ body {
   }
 }
 @media screen and (min-height: 1000px) {
-  #calculatorDesign, #mainLine {
+  #calculatorDesign,
+  #mainLine {
     width: 420px;
+  }
+
+  #mainLine {
+    font-size: 2.45vh;
+  }
+
+  .firstLine {
+    height: 4.9vh;
   }
 
   .buttonDesign {
