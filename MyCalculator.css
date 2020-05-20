@@ -111,14 +111,14 @@ body {
     width: 210px;
   }
 }
-@media screen and (min-height: 700px) {
+@media screen and (min-height: 1000px) {
   #calculatorDesign, #mainLine {
     width: 420px;
   }
 
   .buttonDesign {
     width: 105px;
-    height: 5vh;
+    height: 7vh;
   }
 
   #clear,
